@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Ubuntu', sans-serif;
+    }
+.nav-item a{
+font-size: 22px;
+text-transform: uppercase;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.logo_section img{
+height: 50px;
+width: 90px;
+}
+.banner{
+    padding-top: 60px;
+}
+.banner-img{
+    background-image: url(E:/practice/music/images/banner.jpg);
+    height: 500px;
+    padding-top: 50px;
+}
+.banner h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 30px 0 30px 0;
+}
+.banner a{
+    background-color: black;
+color: white;
+font-size: 20px;
+border: solid 1px black;
+padding: 15px 30px;
+text-decoration: none;
+margin: 0 auto;
+}
+.banner a:hover{
+    background-color: #d71309;
+    color: white;
+}
+.banner span {
+    font-weight: normal;
+    color: white;
+    background-color: #d71309;
+    padding: 0 20px;
+    font-size: 51px;
+}
+.download{
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.custom{
+    padding: 30px 0 30px 0;
+}
+.box-4{
+    padding: 40px 20px;
+}
+.box-4 i{
+    color: white;
+    font-size: 80px;
+    background-color: #d71309;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0  15px 20px 0 rgba(248, 95, 154, 0.4);
+}
+.box-4 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 0 20px 0;
+    color: #d71309;
+}
+.box-4 p {
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.footer-bottom{
+    background-color: #2b2b2b;
+}
+.footer-top{
+    background-color: #d71309;
+    padding-bottom: 30px;
+}
+.heading h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    padding: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.heading h2:after{
+    content: "";
+    display: block;
+    width: 70px;
+    border: 2px solid orangered;
+}
+.heading p{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.comments h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.like-post span{
+font-size: 25px;
+color: #d71309;
+padding: 0 0 20px 0;
+}
+.comments p{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0 20px 0;
+}
+.comments h3{
+    color: white;
+    font-weight: bold;
+}
+.comments {
+background-color: #2b2b2b;
+box-shadow: 0  10px 10px 0 rgba(157, 157, 165, 0.692);
+}
+.comments img{
+    padding: 5px;
+}
+.email{
+    padding: 14px 10px;
+    width: 100%;
+    border: #ddd solid 1px;
+}
+.submit-btn{
+    width: 100%;
+    padding: 14px 10px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: #d71309;
+}
+button{
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.footer-top h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.footer-bottom h3{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+.address{
+    padding: 10px 0;
+}
+.address a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 0 0 10px;
+}
+.address i{
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    /* padding: 20px 0; */
+}
+.icofont-5 i{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 20px 0;
+}
+.icofont-5 i:hover{
+    color: mediumvioletred;
+}
+.width h3{
+    font-family: 'Raleway', sans-serif;
+}
+.contactus{
+    border: #b1b0b0 solid 1px;
+    padding: 12px 19px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #000;
+    width: 100%;
+}
+.textarea{
+    margin-bottom: 25px;
+    padding: 12px 19px;
+    color: #000;
+    width: 100%;
+    border: #b1b0b0 solid 1px;
+    border-radius: 10px;
+}
+.send{
+    font-size: 16px;
+    border: #fff solid 1px;
+    padding: 10px 50px;
+    background-color: #fff;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: #f70e0e;
+}
+.send:hover{
+    background-color: gold;
+    color: black;
+}
+.margin img{
+    padding: 30px;
+}
+.box-bg{
+    padding: 30px 0;
+}
+.box-bg img{
+    width: 610px;
+    height: 430px;
+    margin: 0;
+}
+.img-bg{
+    background-color: #ff1d00;
+    width: 100%;
+    height: 87%;
+    margin: 32px 0px;
+    box-sizing: border-box;
+}
+.mike-bg img{
+    padding: 30px 0 0 100px;
+}
+.mike-bg h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+.mike-bg p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 0;
+    font-weight: 300;
+}
+.mike-bg a{
+    max-width: 167px;
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    padding: 12px 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mike-bg a:hover{
+    background-color: #d71309;
+    color: white;
+}
+.width img{
+    height: 70px;
+    width: 100px;
+}
+@media(min-width: 320px)and (max-width: 768px){
+.banner-img h1{
+    font-size: 35px;
+}
+.perfect span{
+    font-size: 30px;
+}
+.para{
+    font-size: 20px;
+    color: white;
+}
+.download a{
+    font-size: 15px;
+}
+.box-4{
+    padding-bottom: 10px;
+}
+.box-bg img{
+height: 240px;
+width: 320px;
+}
+.box-bg{
+    padding: 15px 0;
+}
+.mike-bg img{
+    height: 140px;
+    width: 200px;
+}
+.abst-img h3{
+font-size: 23px;
+font-weight: 400;
+}
+.abst-img p{
+    font-size: 20px;
+}
+.abst-img a{
+    font-size: 20px;
+}
+.like-post span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.like-post p{
+    font-size: 25px;
+}
+.comments {
+    margin: 10px 0;
+}
+.comments h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.width img{
+    height: 160px;
+    width: 250px;
+padding-left: 15%}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .banner-img h1{
+      font-size: 60px;
+  } 
+  .perfect span{
+      font-size: 40px;
+  }
+  .download{
+      padding-top: 10px;
+  } 
+  .para{
+      font-size: 30px;
+      padding: 0;
+  }
+  .banner a{
+      padding: 10px;
+      font-size: 20px;
+  }
+  .box-bg img{
+      height: 350px;
+width: 650px;
+margin: 0 auto;
+padding-left: 50px;
+}
+.mike-bg img{
+    height: 150px;
+    width: 230px;
+}
+.abst-img h3{
+font-size: 40px;
+}
+.abst-img a{
+    font-size: 20px;
+}
+.comments p{
+    padding: 0 5px 10px 5px;
+}
+  .width img{
+      height: auto;
+      width: auto;
+      margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px){
+    .nav-item{
+       padding-left: 10px;
+   }
+    .para{
+    color: white;
+    padding-bottom: 20px;
+   } 
+   .box-bg img{
+       height: 600px;
+       width: 950px; 
+       margin: 0 auto;
+   }
+   .mike-bg img{
+       height: auto;
+       width: auto;
+       margin: 0 auto;
+   }
+   .abst-img h3{
+       font-size: 35px;
+       font-weight: 600;
+   }
+   .abst-img p{
+       font-size: 25px;
+   }
+   .abst-img a{
+       font-size: 25px;
+   }
+   .like-post span{
+       padding: 10px 10px;
+   }
+   .comments p{
+color: white;
+padding: 0 5px 10px 10px;
+   }
+}
+@media (min-width: 1440px){
+    .download{
+        padding: 0;
+    }
+    .banner a{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 30px;
+        color: white;
+        padding-bottom: 40px;
+    }
+    .box-bg img{
+        height: 460px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .comments img{
+        padding-left: 35px;
+    }
+    .heading h2{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .heading p{
+        font-size: 35px;
+    }
+}
